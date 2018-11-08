@@ -64,3 +64,6 @@ if __name__=='__main__':
     plt.subplots_adjust(top=0.9)
     #plt.tight_layout()
     plt.show()
+
+    # save array
+    save_to_pickle(arr, 'data', 'daily_array_all.pkl')
